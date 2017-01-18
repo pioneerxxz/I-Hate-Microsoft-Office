@@ -10,7 +10,7 @@
 但这学期我们想玩点有新意并且破绽小一点的方法让Microsoft Office不能使用，这个程序的用途是使Word哥和其他两个东西『闪退』，不能使用，然后就可以安装WPS爽一把啦~
 #辣么，如何使用呢
 ###0x00
-[下载](https://github.com/moeyi/I-hate-Microsoft-office/zip/master)或者克隆这个项目
+[下载](https://github.com/MoeYi/I-hate-Microsoft-Office/archive/master.zip)或者克隆这个项目
 ````
 git clone https://github.com/moeyi/i-hate-microsoft-office.git
 ````
