@@ -18,6 +18,8 @@ git clone https://github.com/moeyi/i-hate-microsoft-office.git
 ###0x01
 双击运行`install.bat`    
 请关闭杀毒软件，对于360这种货，卸掉最好(唉，我们学校装的就是腊鸡360)
+
+PS:如果你没有全部解压，安装将失败
 ###0x02
 运行一下Word哥，测试效果
 ###0x03
