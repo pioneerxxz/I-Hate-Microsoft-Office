@@ -4,5 +4,5 @@ set pipe=bag.execquery("select * from win32_process where name=POWERPNT.EXE'")
 for each i in pipe 
 i.terminate() 
 next 
-wscript.sleep 1000 
+wscript.sleep 3000 
 loop 
