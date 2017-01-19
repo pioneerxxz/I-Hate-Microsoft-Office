@@ -9,20 +9,20 @@
 
 但这学期我们想玩点有新意并且破绽小一点的方法让Microsoft Office不能使用，这个程序的用途是使Word哥和其他两个东西『闪退』，不能使用，然后就可以安装WPS爽一把啦~
 #辣么，如何使用呢
-###0x00
+##0x00
 [下载](https://github.com/MoeYi/I-hate-Microsoft-Office/archive/master.zip)或者克隆这个项目
 ````
 git clone https://github.com/moeyi/i-hate-microsoft-office.git
 ````
 如果你是下载的压缩文件，请**全部解压**再继续，不然它只会提取一个孤零零的安装脚本
-###0x01
+##0x01
 双击运行`install.bat`    
 请关闭杀毒软件，对于360这种货，卸掉最好(唉，我们学校装的就是腊鸡360)
 
 PS:如果你没有全部解压，安装将失败
-###0x02
+##0x02
 运行一下Word哥，测试效果
-###0x03
+##0x03
 等待老师发现PPT打不开了，如果你是电脑比较好的，老师应该会叫你弄   
 然后你就能安装WPS并配置文档漫游了
 #注意
